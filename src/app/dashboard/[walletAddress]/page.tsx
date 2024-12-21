@@ -38,7 +38,7 @@ export default function DashboardPage() {
         </button>
       </div>
       <p className="text-2xl font-semibold mb-4">My Campaigns:</p>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-3 p-4">
         {!isLoading &&
           data &&
           (data && data.length > 0 ? (
